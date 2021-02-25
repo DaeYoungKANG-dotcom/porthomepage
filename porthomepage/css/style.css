@@ -1,0 +1,332 @@
+/* style . css */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+ul {list-style-type: none;}
+
+a { text-decoration: none;}
+
+body {
+    font-family: '나눔 고딕',sans-serif;
+    font-size: 20px ;
+    
+    
+}
+#main_header {
+    position: absolute;
+    width: 100%;
+    background: none;
+    height: 80px;
+    z-index: 999;
+
+}
+
+#main_header .container {
+    position: relative;
+}
+#main_header h1 {
+    position: absolute;
+    left:20px; top: 14px;
+}
+#main_header h1 > a {
+    color: #fff;
+}
+#gnb {
+    position: absolute;
+    right: 0; top: 25px;
+}
+#gnb a { 
+    color: black;
+}
+#gnb > ul {
+    margin-top: 51px ;
+    
+}
+#gnb > ul > li {
+    float: left;
+    margin-left: 64px;
+    
+}
+#gnb > ul > li > a {
+    display: block;
+    font-weight: bold;
+}
+#gnb > ul > li > a:hover {
+    border-bottom: 2px solid black;
+}
+#visual {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    background: url(../image/background.png);
+    background-size: cover;
+    background-position: center;
+}
+#visual .container2 {
+    width: 750px;
+    height:151px;
+    /* outline: 1px solid red; */
+    transform: translate(720px , 500px);
+    background:none;
+}
+#visual .title-group{
+    position: absolute;
+    bottom:23%;
+    width: 600px;
+    height: 205px;
+    text-transform: uppercase;
+    transform:translateY(-220px);
+}
+#visual .title-group h1 {
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#visual .title-group h2 {
+   margin-top: 50px;
+   margin-left: 64px;
+   font-family: '나눔고딕',sans-serif;
+}
+#about {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    background: url(../image/background2.png);
+    overflow: hidden;
+}
+#about h5 {
+    transform: translate(100px, 50px);
+}
+#about .box1 {
+    width: 243px;
+    height: 3px;
+    outline: 1px solid black;
+    background: black;
+    transform: translate(108px , 130px);
+}
+#about .box2 {
+    width: 556px;
+    height: 3px;
+    outline: 1px solid black;
+    background: black;
+    transform: translate(108px , 630px);
+}
+#about .container {
+    width: 1450px;
+    height: 750px;
+       
+    transform: translateY(100px);
+}
+#about .container h2 {
+    transform: translate(250px , 80px);
+}
+#about .container img {
+    transform: translate(70px , 110px);
+}
+#about .text {
+    width: 304px;
+    transform: translate(360px, -360px);
+    height: 448px;
+}
+#about .text p > span {
+    color: red;
+}
+#about p{
+    word-spacing: 3px;
+  padding-bottom: 40px;
+  font-weight: bold;
+  white-space: pre-line;
+  text-align: justify;
+}
+#about .introduce {
+    transform: translate(867px , -283px);
+    width: 500px;
+    height: 500px; 
+        
+}
+#about .introduce ul > li {
+    margin-top: 60px;
+    font-size: 15px;
+}
+#about .introduce-number {
+    width: 300px;
+    height: 500px;
+    
+    transform: translate(1100px , -923px);
+}
+#about .introduce-number ul >li {
+    margin-top: 55px;
+    font-size: 15px;
+}
+#designproject {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    background: url(../image/background.png);
+    transform: translateY(959px);
+}
+#designproject h2 {
+  transform: translate(250px, 200px);
+}
+
+#designproject .container {
+    width: 1250px;
+    height: 900px;
+    /* outline: 1px solid red; */
+}
+#designproject .container > .box1 {
+    width: 205px;
+    height: 178px;
+    margin-top: 77px;
+    transform: translate(450px , 20px);
+}
+#designproject .container > .box2 {
+    width: 205px;
+    height: 178px;
+    margin-top: 77px;
+    transform: translate(450px , 70px);
+}
+#designproject .container > .box3 {
+    width: 205px;
+    height: 178px;
+    margin-top: 77px;
+    transform: translate(800px , -185px);
+}
+#designproject .container > .box4 {
+    width: 205px;
+    height: 178px;
+   
+    margin-top: 77px;
+    transform: translate(800px , -745px);
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+figure.snip1132 {
+  font-family: 'monospace', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  color: rgb(202, 15, 109);
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
+
+figure.snip1132 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+
+figure.snip1132 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 1;
+}
+
+figure.snip1132 figcaption {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 2px solid rgb(202, 15, 109);
+  border-width: 0 1px;
+}
+
+figure.snip1132 .heading {
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+figure.snip1132 .caption {
+  overflow: hidden;
+  -webkit-transform: translateY(55%);
+  transform: translateY(75%);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+figure.snip1132 h3,
+figure.snip1132 p {
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+figure.snip1132 h3 span,
+figure.snip1132 p span {
+  font-weight: 800;
+}
+
+figure.snip1132 h3:before,
+figure.snip1132 p:before,
+figure.snip1132 h3:after,
+figure.snip1132 p:after {
+  position: absolute;
+  display: block;
+  width: 1000%;
+  height: 1px;
+  content: '';
+  background: white;
+}
+
+figure.snip1132 h3:before,
+figure.snip1132 p:before {
+  left: -1000%;
+}
+
+figure.snip1132 h3:after,
+figure.snip1132 p:after {
+  right: -1000%;
+  
+}
+
+figure.snip1132 h3:before,
+figure.snip1132 h3:after {
+  top: 50%;
+  
+}
+
+figure.snip1132 p {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+figure.snip1132 p:before,
+figure.snip1132 p:after {
+  bottom: 50%;
+}
+
+figure.snip1132 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+figure.snip1132:hover img,
+figure.snip1132.hover img {
+  opacity: 0.35;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
